@@ -57,9 +57,7 @@ namespace sendEmailDemo
             catch (Exception ex)
             {
                 Console.WriteLine("Failed to send email. Error: " + ex.Message);
-            }
-
-            
+            } 
         }
     }
 }
